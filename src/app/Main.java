@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
         FileHandler handler = new FileHandler();
         String newFileName = "myfile";
-        String content = "Super information.";
+        String content = "SuperPUPER information.";
         String path = BASE_PATH + newFileName + ".txt";
         try {
             java.nio.file.Files.createDirectories(Paths.get(BASE_PATH));
